@@ -2,4 +2,5 @@ git restore --staged filename ************** goes one step back in git(removes t
 git status *********************** gives the status
 git commit -m "your message "********   commits with a message
 git add . **************** adds your file or folder to the git repository
+git log   *************** gives the history of the product
 
