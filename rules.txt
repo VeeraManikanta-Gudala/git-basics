@@ -41,6 +41,16 @@ git stash::::
 this command brings the file that is in the backstage to the staging area
 
 its like i dont want to commit the changes and i dont want to lose the changes
+**&*&*&*Lets get to the good part*(*&*&&*
+
+creating remote repositories 
+git remote add origin URL
+*Please use ssh method because the HTTP method making me write username and password every time*
+git remote -v
+repository is created but we havent added anythin yet
+to add or push your files to git we use the command
+git push origin main
+
 
 
 
