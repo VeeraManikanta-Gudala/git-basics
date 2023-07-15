@@ -1,6 +1,56 @@
 git restore --staged filename ************** goes one step back in git(removes the file from the stage)
 git status *********************** gives the status
-git commit -m "your message "********   commits with a message
 git add . **************** adds your file or folder to the git repository
+git commit -m "your message "********   commits with a message
 git log   *************** gives the history of the product
+
+to revert the process or to remove the staged file while adding you can do 
+git restore --staged filename(names.txt)==========
+                veera@veera-NMH-WCX9:~/Desktop/git$ git log
+                commit 744236db8cb038c4b8bbb1ad2a8244c0f669d828 (HEAD -> master)
+1                Author: VeeraManikanta-Gudala <gveera_it211229@mgit.ac.in>
+                Date:   Thu Jul 13 20:21:34 2023 +0530
+
+                    names.txt file deleted
+
+                /\commit 1005e8d76db8c5a4cdae5a18ca07db9bd884e957
+                Author: VeeraManikanta-Gudala <gveera_it211229@mgit.ac.in>
+ 2               Date:   Thu Jul 13 20:19:45 2023 +0530
+
+                names.txt file is changed
+
+                    commit 72dd6efec08d9e561caa1738c4934a4f02cadbbe
+3                    Author: VeeraManikanta-Gudala <gveera_it211229@mgit.ac.in>
+                    Date:   Tue Jul 11 05:41:18 2023 +0530
+
+                        git logs command added
+
+                        commit 0edac3fa2e0b9ea9bbb3d98f90abbf649d0a0c3f
+                        Author: VeeraManikanta-Gudala <gveera_it211229@mgit.ac.in>
+4                        Date:   Tue Jul 11 05:39:27 2023 +0530
+
+                            New content added
+                        :
+if you want to goto the state state, or remove any type of commits,
+copy the hashvalue of the commit below it. and run the command
+git reset #theHashValue
+
+
+
+git stash::::
+this command brings the file that is in the backstage to the staging area
+
+its like i dont want to commit the changes and i dont want to lose the changes
+
+
+
+
+
+
+git remote add origin URL
+remote: worikinh wit urls
+add: addign the url
+origin:
+git  remote -v ::::::::;;shows the urls that are attached to the folder
+git push origin master
 
